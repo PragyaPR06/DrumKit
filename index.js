@@ -1,8 +1,8 @@
-var buttons = document.querySelectorAll("button").length;
+var buttons = document.querySelectorAll(".drum").length;
 for(var i=0; i<buttons; i++){
-document.querySelectorAll("button")[i].addEventListener("click",function(){
+document.querySelectorAll(".drum")[i].addEventListener("click",function(){
     var drumnote = this.innerHTML;
-switch(buttoninnerhtml){
+switch(drumnote){
                     case "w":
                         var tom1 = new Audio("tom-1.mp3");
                         tom1.play();
